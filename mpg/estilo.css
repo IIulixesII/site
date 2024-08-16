@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f2f2 !important;
+}
+
+  /* Estilos para la barra de navegación */
+  .navbar {
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ffffff1c;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+
+  /* Estilos adicionales para una visualización responsiva */
+  @media screen and (max-width: 600px) {
+    .navbar input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+  }
+
+  #carouselExampleSlidesOnly .carousel-item img {
+    height: 400px; /* Ajusta la altura según tus necesidades */
+    width: auto; /* Ancho automático para mantener la proporción */
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .productos-container {
+    overflow-x: hidden; /* Cambiado a 'hidden' para ocultar el scroll horizontal */
+    white-space: nowrap;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  .productos {
+    display: inline-block;
+  }
+  
+  .producto {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .producto h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .productos {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.producto {
+    flex: 0 0 200px; /* Ancho de cada producto */
+    margin-right: 50px; /* Espacio entre productos */
+}
+
+.btn-prev, .btn-next {
+  position: absolute;
+  margin-top: 100px; /* Espacio entre botones y bordes de la pantalla */
+}
+.btn-prev {
+  position: absolute;
+  left: 0;
+}
+
+.btn-next {
+  
+  position: absolute;
+  right: 0;
+}
