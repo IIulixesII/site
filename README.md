@@ -7,7 +7,7 @@
 
 ## 📌 Descripción General
 
-Este sistema de e-commerce fue desarrollado como una plataforma donde los usuarios pueden registrarse, iniciar sesión, subir productos, comentar, eliminar cuentas, y personalizar su perfil con una foto. Además, los administradores tienen la capacidad de gestionar productos y usuarios.  
+Este sistema de e-commerce fue desarrollado como una plataforma donde los usuarios pueden registrarse, iniciar sesión, subir productos, comentar, eliminar cuentas y personalizar su perfil con una foto. Además, los administradores tienen la capacidad de gestionar productos y usuarios.  
 
 El enfoque principal es la usabilidad y la gestión dinámica de productos y usuarios en una interfaz sencilla y funcional.
 
@@ -45,12 +45,41 @@ El enfoque principal es la usabilidad y la gestión dinámica de productos y usu
 
 ## 🧱 Tecnologías Utilizadas
 
-- **Lenguaje:** Java (100%)
-- **Base de Datos:** MySQL / SQLite (dependiendo del entorno)
-- **Paradigma:** Programación orientada a objetos
-- **Librerías utilizadas:** (si aplica, por ejemplo para manejo de imágenes)
+- **Lenguaje:** Python, PHP
+- **Base de Datos:** MySQL
+- **Paradigma:** Programación estructurada y orientada a objetos
 
 ---
 
-## 🗂️ Estructura del Proyecto (Ejemplo)
+---
+
+## 🚦 Estado Actual
+
+| Funcionalidad                        | Estado          |
+|--------------------------------------|------------------|
+| Registro e inicio de sesión          | ✅ Implementado |
+| Subida y eliminación de productos    | ✅ Implementado |
+| Sistema de comentarios               | ✅ Implementado |
+| Gestión de usuarios y perfil         | ✅ Implementado |
+| Foto de perfil                       | ✅ Implementado |
+
+---
+
+## 📌 Consideraciones
+
+- El sistema está pensado para ejecutarse en escritorio o entorno web, según lenguaje.
+- Las imágenes se almacenan en disco o base de datos según configuración.
+- Las operaciones están protegidas por autenticación.
+
+---
+
+## 🚀 Mejoras Futuras (Opcionales)
+
+- Filtro por categorías o precio.
+- Valoraciones con estrellas.
+- Sistema de favoritos.
+- Integración con pasarelas de pago.
+
+
+
 
